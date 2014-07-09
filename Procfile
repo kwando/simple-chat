@@ -1,1 +1,1 @@
-web: bin/puma -e production -p $PORT
+web: puma -p $PORT -e production
