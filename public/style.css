@@ -1,0 +1,26 @@
+body {
+  font-size: 87.5%;
+}
+
+ul.list-group {
+  list-style-type: none;
+  padding: 1em;
+}
+
+.list-group-item {
+  padding: .5em 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-group .list-group-item:last-child {
+  border-bottom: none;
+}
+
+.chat-header {
+  background-color: white;
+  color: dodgerblue;
+  padding: 1em;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
